@@ -1,0 +1,12 @@
+{
+  "name": "babel-plugin-transform-svg-sprite",
+  "version": "1.0.0",
+  "description": "use this module to strip out the svg-sprite code from server bundles",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyashishov/babel-plugin-transform-svg-sprite"
+  },
+  "author": "IlyaShishov",
+  "license": "MIT"
+}
