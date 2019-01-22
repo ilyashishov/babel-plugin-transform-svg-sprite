@@ -8,7 +8,7 @@ module.exports = function (conf) {
     function replaceSVG(filename, path) {
         let data = fs.readFileSync(path)
         const md5 = crypto.createHash('md5').update(data).digest('hex')
-        return `#${filename.replace('.svg', '')}__${md5}`
+        return {id: `${filename.replace('.svg', '')}__${md5}`}
     }
 
     return {
